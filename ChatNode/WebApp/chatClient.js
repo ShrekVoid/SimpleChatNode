@@ -56,6 +56,7 @@ $(document).ready(function(){
                 connection.send($("#text").val())
             });
 
+            // Adds a message with name text and color
             function addMessage(name, text, color){
                 var message = $("#messageTemplate").clone();
                 message.attr("id", "");
