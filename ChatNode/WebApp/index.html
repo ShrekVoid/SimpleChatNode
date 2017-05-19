@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Node Chat</title>
+    <link rel="stylesheet" href="Main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="chatClient.js"></script>
+</head>
+<body>
+    <div id="site-frame">
+        <div class="messages">
+        </div>
+        <div class="user-input">
+                <input type="text" placeholder="Name" id="name"/>
+                <textarea placeholder="Enter a message" id="text"></textarea>
+                <button class="name" id="sendMessage">Send message</button>
+        </div>
+    </div>
+
+    <div id="templates" style="display: none">
+        <div class="message-box" id="messageTemplate">
+            <div>
+                <div class="name"></div>
+                <div class="message"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
