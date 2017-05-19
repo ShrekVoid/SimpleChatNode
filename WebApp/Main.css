@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+
+#site-frame{
+}
+
+.messages{
+    outline: 1px black solid;
+    width: 80%;
+    margin: auto;
+}
+
+.user-input{
+    margin: auto;
+    width: 10%;
+}
+
+#name, #text{
+    margin: 3%;
+}
+
+.name{
+    background-color: #00B7FF;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin: 1%;
+}
+
+.message-box > div{
+    padding: 1%;
+    display: inline-block;
+    border: 1px black dashed;
+    border-radius: 5px;
+    margin: 1%;
+}
